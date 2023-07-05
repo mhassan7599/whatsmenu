@@ -1,0 +1,1118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    ---green:#36b387;
+    ---black:#222222;
+    ---grey:#626262;
+    ---white:#ffffff;
+    ---lightgrey:#f1f1f1;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section{
+    padding: 10px 150px;
+}
+.header{
+    background-color: transparent ;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .container #menu{
+    border: 2px solid var(---grey);
+    color: var(---black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-right: 20px;
+    display: none;
+    border-radius: 50px;
+}
+.header .container #menu:hover{
+    border: 2px solid var(---green);
+    color: var(---green);
+}
+.header .container nav{
+    background-color: transparent;
+}
+.header .container nav a{
+    font-size: 16px;
+    color: var(---black);
+    font-weight: 600;
+    padding: 0px 30px;
+}
+.header .container nav a:hover{
+    background-color: var(---green); 
+    padding-top: 40px; 
+    padding-bottom: 20px; 
+    border-radius: 0px 0px 10px 10px;
+    color: var(---white);
+}
+.header .container .all-button{
+    display: flex;
+    align-items: center;
+}
+.header .container button{
+    width: 150px;
+    height: 50px;
+    background-color: var(---green);
+    border: none;
+    color: var(---white);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.header .container .btn{
+    width: 150px;
+    height: 50px;
+    color: var(---black);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 2px solid var(---green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .container .btn:hover{
+    background-color: var(---green);
+    color: var(---white);
+}
+/* hero area */
+.hero{
+    background-color: transparent;  
+  }
+  .hero .container{
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .hero .container .hero-text{
+      background-color: transparent;
+  }
+  .hero .container .hero-text h1{
+      font-size: 60px;
+      font-weight: 700;
+      color: var(---black);
+      line-height: 70px;
+  }
+  .hero .container .hero-text h3{
+    font-weight: 700;
+    color: var(---green);
+}
+  .hero .container .hero-text span{
+    color: var(---green);
+}
+  .hero .container .hero-text p{
+      font-size: 16px;
+      font-weight: 500;
+      color: var(---grey);
+      line-height: 40px;
+      margin-top: 30px;
+  }
+  .hero .container .hero-text .two-button{
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+  }
+  .hero .container .hero-text button{
+      background-color: var(---green);
+      width: 150px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(---white);
+      font-weight: 600;
+      border: none;
+      font-size: 16px;
+      border-radius: 50px;
+  }
+  .hero .container .hero-text a{
+    width: 150px;
+    height: 50px;
+    color: var(---black);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 2px solid var(---green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .container .hero-text a:hover{
+    background-color: var(---green);
+    color: var(---white)
+  }
+/* hero area */
+
+/* our feature */
+.feature{
+    margin-top: 150px;
+}
+.feature .heading{
+    text-align: center;
+}
+.feature .heading h1{
+    font-size: 60px;
+    color: var(---black);
+    font-weight: 700;
+}
+.feature .heading h3{
+    font-size: 25px;
+    color: var(---green);
+    font-weight: 600;
+}
+.feature .container{
+    background-color:transparent;
+    margin-top: 50px;
+}
+.feature .container .colum-1{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.feature .container .colum-1 .box{
+    text-align: center;
+}
+.feature .container .colum-1 .inside-box{
+    width: 200px;
+    height: 200px;
+    background-color: var(---white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 8px solid var(---green);
+    border-bottom: 8px solid var(---white);
+    backdrop-filter: blur(200px);
+}
+.feature .container .colum-1 .box .inside-box i{
+    background-color: transparent;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(---green);
+}
+.feature .container .colum-1 .box h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(---black);
+    cursor: pointer;
+}
+
+.feature .container .colum-2{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px
+}
+.feature .container .colum-2 .box{
+    text-align: center;
+}
+.feature .container .colum-2 .inside-box{
+    width: 200px;
+    height: 200px;
+    background-color: var(---white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 8px solid var(---green);
+    border-bottom: 8px solid var(---white);
+    backdrop-filter: blur(200px);
+}
+.feature .container .colum-2 .box .inside-box i{
+    background-color: transparent;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(---green);
+}
+.feature .container .colum-2 .box h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(---black);
+    cursor: pointer;
+}
+.feature .feature-two-btn{
+    background-color: transparent;
+    margin-top: 50px;
+}
+.feature .feature-two-btn .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.feature .feature-two-btn .container button{
+    background-color: var(---white);
+    box-shadow: 0px 0px 20px #00000034;
+    border: none;
+    border-radius: 100px;
+    width: 600px;
+    height: 160px;
+    color: var(---grey);
+    font-size: 16px;
+    font-weight: 500;
+}
+.feature .feature-two-btn .container button a{
+    color: var(---green);
+    font-size: 30px;
+    font-weight: 700;
+}
+.feature .feature-two-btn .container button:hover{
+    background-color: var(---green);
+    color: var(---white);
+}
+.feature .feature-two-btn .container button a:hover{
+    color: var(---white);
+}
+/* our feature */
+
+/* video */
+.work{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.work .work-heading{
+    text-align: center;
+}
+.work .work-heading h3{
+    font-size: 25px;
+    color: var(---green);
+    font-weight: 600;
+}
+.work .work-heading h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: var(---black);
+    line-height: 70px;
+}
+.work .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.work .container .data-video{
+    background-color: transparent;
+    text-align: center;
+}
+.work .container .data-video a{
+    font-size: 30px;
+    color: var(---black);
+    font-weight: 800;
+}
+.work .container .data-video a:hover{
+    color: var(---green);
+}
+.work .container .data-video .video1{
+    background-image: url(img/v1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-position: center;
+}
+.work .container .data-video .video1 i{
+    font-size: 20px;
+    background-color: var(---white);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work .container .data-video .video2{
+    background-image: url(img/v2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-position: center;
+}
+.work .container .data-video .video2 i{
+    font-size: 20px;
+    background-color: var(---white);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.work .container .data-video .video1 i:hover{
+    color: var(---green);
+}
+.work .container .data-video .video2 i:hover{
+    color: var(---green);
+}
+/* video */
+
+/* price */
+.pricing{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.pricing .pricing-heading{
+    text-align: center;
+}
+.pricing .pricing-heading h3{
+    font-size: 25px;
+    color: var(---green);
+    font-weight: 600;
+}
+.pricing .pricing-heading h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: var(---black);
+    line-height: 70px;
+}
+.pricing .container{
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.pricing .container .box{
+    background-color: var(---white);
+    box-shadow: 0px 0px 20px #00000033;
+    width: 450px;
+    height: 750px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.pricing .container .box:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 20px #36b38748;
+}
+.pricing .container .box .top-data{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    padding: 0px 30px;
+    border-bottom: 5px var(---green) solid;
+}
+.pricing .container .box .top-data h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(---green);
+}
+.pricing .container .box .top-data p{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(---black);
+}
+.pricing .container .box .bottom-data{
+    padding: 30px 30px;
+}
+.pricing .container .box .bottom-data h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(---black);
+}
+.pricing .container .all-choice .choice{
+    display: flex;
+    align-items: first baseline;
+    margin: 30px 0px;
+}
+.pricing .container .all-choice .choice i{
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    background-color: var(---lightgrey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.pricing .container .all-choice .choice i:hover{
+    background-color: var(---green);
+    color: var(---white);
+}
+.pricing .container .all-choice .choice p{
+    font-size: 16px;
+    color: var(---black);
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.pricing .container .price-button{
+    background-color: transparent;
+    height: 73px;
+    display: flex;
+    align-items: center;
+}
+.pricing .container .price-button button{
+    background-color: var(---green);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 100px;
+    color: var(---white);
+    font-size: 16px;
+    cursor: pointer;
+}
+/* price */
+
+/* demo */
+.about{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .container .about-text{
+    background-color: transparent;
+}
+.about .about-text h3{
+    font-size: 30px;
+    color: var(---green);
+    font-weight: 600;
+}
+.about .about-text h1{
+    font-size: 60px;
+    color: var(---black);
+    font-weight: 800;
+    line-height: 70px;
+    margin-top: 30px;
+}
+.about .about-text p{
+    font-size: 16px;
+    color: var(---grey);
+    font-weight: 500;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+.about .container .about-text button{
+    background-color: var(---green);
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(---white);
+    font-weight: 600;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.about .container .about-image{
+    background-color: var(---white);
+    box-shadow: 0px 0px 20px #0000003a;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid var(---green) 5px;
+}
+/* demo */
+
+/* testimonial */
+.testimonial{
+    background-color: transparent;
+    margin-top: 100px;
+}
+.testimonial .heading{
+    margin-top: 50px;
+    text-align: center;
+}
+.testimonial .heading h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(---green);
+}
+.testimonial .heading h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+.testimonial .tes-text{
+    text-align: center;
+}
+.testimonial .tes-data{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.testimonial .tes-text h4{
+    font-size: 30px;
+    color: var(---green);
+    font-weight: 700;
+}
+.testimonial .tes-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(---grey);
+    line-height: 40px;
+    margin: 20px;
+}
+.testimonial .tes-data .star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.testimonial .tes-data .star i{
+    font-size: 25px;
+    color: rgb(255, 217, 0);
+    padding: 0px 5px;
+}
+.testimonial .tes-data .timage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial .tes-data .timage img{
+    border-radius: 100px;
+    border: 2px solid var(---white);
+    box-shadow: 0px 5px 10px #00000027;
+}
+.testimonial .tes-data .arrow{
+    width: 80px;
+    height: 80px;
+    background-color: var(---white);
+    box-shadow: 0px 5px 10px #0000001f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.testimonial .tes-data .arrow:hover{
+    background-color: var(---green);
+    color: var(---white);
+}
+/* testimonial */
+
+/* footer */
+.footer{
+    background-color: var(---black);
+    margin-top: 150px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .container nav a{
+    font-size: 16px;
+    color: var(---white);
+    font-weight: 500;
+    padding: 0px 20px;
+}
+.footer .container .search h1{
+    font-size: 25px;
+    color: var(---white);
+    font-weight: 700;
+}
+.footer .container .search .input{
+    width: 360px;
+    height: 50px;
+    background-color: var(---white);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 100px;
+}
+.footer .container .search input{
+    height: 100%;
+    border: none;
+    width: 280px;
+    border-radius: 100px 0px 0px 100px;
+    background-color: transparent;
+    width: 100%;
+    padding-left: 10px;
+}
+.footer .container .search i{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: var(---green);
+    border-radius: 0px 100px 100px 0px;
+    color: var(---white);
+}
+.footer .last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.footer .last p{
+    color: var(---white);
+    font-size: 16px;
+}
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1536px) {
+    section{
+        padding: 10px 80px;
+    }
+    .feature .feature-two-button button{
+        width: 500px;
+        height: 160px;
+    }
+}
+
+@media (max-width:1280px) {
+    section{
+        padding: 10px 50px;
+    }
+
+    .header .container nav a{
+        font-size: 14px;
+        color: var(---black);
+        font-weight: 600;
+        padding: 0px 15px;
+    }
+    .hero .container .hero-text h1{
+        font-size: 50px;
+        font-weight: 700;
+        color: var(---black);
+        line-height: 70px;
+    }
+    .hero .container .hero-text p{
+        font-size: 12px;
+        font-weight: 500;
+        color: var(---grey);
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .hero .container .hero-text .two-button{
+        margin-top: 10px;
+    }
+    .feature .feature-two-btn .container button{
+        width: 500px;
+        height: 160px;
+    }
+    .pricing .container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricing .container .box{
+        margin: 20px 20px;
+    }
+    .about .container .about-text h1{
+        font-size: 50px;
+    }
+    .footer .container nav a{
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width:1080px) {
+    section{
+        padding: 10px 25px;
+    }
+
+    .header .container nav{
+        display: none;
+    }
+    .header .container #menu{
+        display: initial;
+    }
+    .hero .container{
+        display: block;
+    }
+    .hero .container .hero-text{
+        text-align: center;
+    }
+    .hero .container .hero-text .two-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero .container .hero-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .feature .container .colum-1{
+        display: block;
+    }
+    .feature .container .colum-2{
+        display: block;
+    }
+    .feature .container .colum-1 .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .feature .container .colum-2 .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+    .feature .feature-two-btn .container{
+        display: block;
+    }
+    .feature .feature-two-btn .container .button-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .feature .feature-two-btn .container .button-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .work .container{
+        display: block;
+    }
+    .work .container .data-video .video1{
+        margin: 20px auto;
+    }
+    .work .container .data-video .video2{
+        margin: 20px auto;
+    }
+    .about .container{
+        display: block;
+    }
+    .about .container .about-text{
+        text-align: center;
+    }
+    .about .container .about-text button{
+        margin: 0px auto;
+    }
+    .about .about-image{
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+        margin: 30px auto;
+    }
+    .about .about-image img{
+        width: 100%;
+    }
+    .footer .container{
+        display: block;
+    }
+    .footer .container .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .container nav a{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+    }
+    .footer .container .search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .container .search h1{
+        text-align: center;
+    }
+    .footer .last{
+        display: block;
+        text-align: center;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width:768px) {
+    section{
+        padding: 10px 16px;
+    }
+
+   .header .container .all-button button{
+        display: none;
+   }
+
+   .header .container .all-button .btn{
+    margin-left: 0px;
+    }
+    .hero .container .hero-text h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .hero .container .hero-text p{
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .testimonial .tes-data .arrow{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width:640px) {
+    section{
+        padding: 10px 5px;
+    }
+
+   .header .container .all-button .btn{
+        display: none;
+   }
+   .header .container .logo{
+    background-color: transparent;
+    width: 200px;
+   }
+   .header .container .logo img{
+    width: 100%;
+   }
+   .hero .container .hero-image img{
+    width: 100%;
+    }
+    .hero .container .hero-text button{
+        background-color: var(---green);
+        width: 130px;
+        height: 42px;
+        font-size: 12px;
+    }
+    .hero .container .hero-text a{
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    border: 2px solid var(---green);
+    }
+    .feature{
+        margin-top: 50px;
+    }
+    .feature .container{
+        margin-top: 20px;
+    }
+    .feature .heading h1{
+        font-size: 40px;
+    }
+    .feature .heading h3{
+        font-size: 20px;
+    }
+    .feature .feature-two-btn .container button{
+        width: 400px;
+        height: 120px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .feature .feature-two-btn .container button a{
+        font-size: 25px;
+    }
+    .work .work-heading h3{
+        font-size: 20px;
+        color: var(---green);
+        font-weight: 600;
+    }
+    .work .work-heading h1{
+        font-size: 40px;
+        font-weight: 800;
+        color: var(---black);
+        line-height: 70px;
+    }
+    .work{
+        margin-top: 30px;
+    }
+    .work .work-heading h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .work .container{
+        margin-top: 20px;
+    }
+    .work .container .data-video .video1{
+        width: 100%;
+        background-position: center;
+    }
+    .work .container .data-video .video2{
+        width: 100%;
+        background-position: center;
+    }
+    .pricing{
+        margin-top: 50px;
+    }
+    .pricing .container{
+        margin-top: 20px;
+    }
+    .pricing .pricing-heading h3{
+        font-size: 20px;
+        color: var(---green);
+        font-weight: 600;
+    }
+    .pricing .pricing-heading h1{
+        font-size: 40px;
+        font-weight: 800;
+        color: var(---black);
+        line-height: 70px;
+    }
+    .pricing .container .box .top-data{
+        padding: 0px 10px;
+    }
+    .pricing .container .box{
+        height: 730px;
+    }
+    .pricing .container .box .bottom-data{
+        padding: 10px 10px;
+    }
+    .about .container .about-text h1{
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+    .about .container .about-text h3{
+        font-size: 20px;
+    }
+    .about .container .about-text p{
+        margin: 10px 0px;
+    }
+    .testimonial {
+        margin-top: 50px;
+    }
+    .testimonial .heading h3{
+        font-size: 20px;
+        color: var(---green);
+        font-weight: 600;
+    }
+    .testimonial .heading h1{
+        font-size: 40px;
+        font-weight: 800;
+        color: var(---black);
+        line-height: 70px;
+    }
+    .testimonial .tes-data{
+        margin-top: 20px;
+    }
+    .testimonial .tes-data .tes-text p{
+        margin: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .feature .feature-two-btn .container button{
+        width: 350px;
+        height: 100px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .feature .feature-two-btn .container button a{
+        font-size: 20px;
+    }
+    .feature .feature-two-btn .container .button-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .pricing .container .box .bottom-data h1{
+        font-size: 20px;
+        font-weight: 700;
+        color: var(---black);
+    }
+    .pricing .container .all-choice .choice p{
+        font-size: 10px;
+        color: var(---black);
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 10px;
+    }
+    .footer .last p{
+        font-size: 10px;
+    }
+    .footer .container .logo{
+        width: 200px;
+        background-color: transparent;
+        margin: 0px auto;
+    }
+    .footer .container .logo img{
+        width: 100%;
+    }
+    .footer .search .all-data .input input{
+        width: 100%;
+    }
+    .footer .search .all-data .input{
+        width: 100%;
+    }
+}
